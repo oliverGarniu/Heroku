@@ -1,1 +1,1 @@
-# Desplegar el API REST de Laptops en Heroku y verificar funcionamiento desde POSTMAN.
+# Desplegar el API REST de Laptop en Heroku y verificar funcionamiento desde POSTMAN.
