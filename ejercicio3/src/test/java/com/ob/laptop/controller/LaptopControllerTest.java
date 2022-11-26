@@ -1,6 +1,6 @@
-package com.ob.ejercicio3.controller;
+package com.ob.laptop.controller;
 
-import com.ob.ejercicio3.entity.Laptop;
+import com.ob.laptop.entity.Laptop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

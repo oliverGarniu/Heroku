@@ -1,7 +1,7 @@
-package com.ob.ejercicio3;
+package com.ob.laptop;
 
-import com.ob.ejercicio3.entity.Laptop;
-import com.ob.ejercicio3.repository.LaptopRepository;
+import com.ob.laptop.entity.Laptop;
+import com.ob.laptop.repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -9,11 +9,11 @@ import org.springframework.context.ApplicationContext;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class Ejercicio3Application {
+public class LaptopApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext context = SpringApplication.run(com.ob.ejercicio3.Ejercicio3Application.class, args);
+        ApplicationContext context = SpringApplication.run(LaptopApplication.class, args);
         LaptopRepository laptopRepository = context.getBean(LaptopRepository.class);
 
         Laptop laptop1 = new Laptop(null, "Apple", 1999.99, LocalDate.of(2021, 12, 15));

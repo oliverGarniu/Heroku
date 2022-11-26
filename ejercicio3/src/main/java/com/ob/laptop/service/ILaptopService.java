@@ -1,6 +1,6 @@
-package com.ob.ejercicio3.service;
+package com.ob.laptop.service;
 
-import com.ob.ejercicio3.entity.Laptop;
+import com.ob.laptop.entity.Laptop;
 
 import java.util.List;
 import java.util.Optional;

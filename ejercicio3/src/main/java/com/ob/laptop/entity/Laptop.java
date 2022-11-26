@@ -1,4 +1,4 @@
-package com.ob.ejercicio3.entity;
+package com.ob.laptop.entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;

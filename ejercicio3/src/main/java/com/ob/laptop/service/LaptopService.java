@@ -1,7 +1,7 @@
-package com.ob.ejercicio3.service;
+package com.ob.laptop.service;
 
-import com.ob.ejercicio3.entity.Laptop;
-import com.ob.ejercicio3.repository.LaptopRepository;
+import com.ob.laptop.entity.Laptop;
+import com.ob.laptop.repository.LaptopRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

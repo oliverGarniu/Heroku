@@ -1,7 +1,7 @@
-package com.ob.ejercicio3.controller;
+package com.ob.laptop.controller;
 
-import com.ob.ejercicio3.entity.Laptop;
-import com.ob.ejercicio3.service.LaptopService;
+import com.ob.laptop.entity.Laptop;
+import com.ob.laptop.service.LaptopService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
