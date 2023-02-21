@@ -68,7 +68,7 @@ public class LaptopService implements ILaptopService {
         boolean found = false;
         if (laptopRepository.existsById(id)) {
             laptopRepository.deleteById(id);
-            System.out.println("Laptop with id: " + id + " was deleted succesfully.");
+            log.info("Laptop with id {} was deleted succesfully.", id);
             found = true;
         } else {
             log.warn("There is no device with id: {}", id);
@@ -85,7 +85,7 @@ public class LaptopService implements ILaptopService {
             return true;
         } else {
             laptopRepository.deleteAll();
-            System.out.println("All laptops were deleted successfully.");
+            log.info("All laptops were deleted successfully.");
             return false;
         }
     }
